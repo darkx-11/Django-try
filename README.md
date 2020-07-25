@@ -1,4 +1,4 @@
-# Django-try
+# Django-project
 A basic backend structure for maintaing a list of webinars you/your organization conducts using API.
 It uses Djoser library for maintaing user accounts and authentication of users- https://djoser.readthedocs.io/en/latest/introduction.html
 
