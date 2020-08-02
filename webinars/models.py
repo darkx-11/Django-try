@@ -7,6 +7,6 @@ class webinarsmodel(models.Model):
     user=models.ForeignKey(User,on_delete=models.CASCADE)
     webinar_heading=models.CharField(max_length=100)
     webinar_details=models.TextField()
-    #webinar_image=models.URLField()
-    #time=models.DateTimeField()
+    webinar_image=models.URLField()
+    time=models.DateTimeField()
     status=models.BooleanField(default=False)
